@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // <--- Required for GitHub Pages
   },
+basePath: '/SecuraLabs', // <--- Add this line
   typescript: {
     ignoreBuildErrors: true,
   },
